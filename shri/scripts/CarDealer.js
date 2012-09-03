@@ -120,7 +120,7 @@ Car.prototype.getCountry = function () {
 yandex.list(); // + BMW X5 2010, Audi Q5 2012, Toyota Camry 2012
 yandex.listByCountry('Germany'); // + BMW X5 2010, Audi Q5 2012
 
-// @TODO: бонус! выводить список машин с ценой в рублях.
+// @TODO: + бонус! выводить список машин с ценой в рублях.
 
 var Rate = undefined;
 
