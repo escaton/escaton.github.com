@@ -1,0 +1,91 @@
+.tabs {
+	margin:0 auto;
+}
+
+.tab {
+	display:block;
+	position:relative;
+	z-index:0;
+	float:left;
+	text-align:center;
+	cursor:pointer;
+
+}
+
+.tab_active {
+	z-index:2;
+	cursor:default;
+}
+
+.tab a {
+	text-decoration:none;
+}
+
+.tab_active a {
+	cursor:default;
+}
+
+.tabs_vertical {
+	border:0px solid red;
+	margin:0 auto;
+	width:200px;
+	height:100px;
+	transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	position:relative;
+	left:-422px;
+	display:none;
+}
+
+.tabs_form {
+	width:760px;
+	height:40px;
+	padding:0 0 0 40px;
+}
+
+.tabs_form .tab {
+	height:28px;
+	width:180px;
+	padding: 12px 0 0 0;
+	margin:3px -24px 0 0px;
+	background:url(../img/form_tab.png);
+}
+
+.tabs_form a {
+	margin: 0 10px;
+	color:#333;
+}
+
+.tabs_code {
+	border:0px solid red;
+	height:30px;
+	width:100%;
+	padding:0 0 0 0px;
+}
+
+.tabs_code .tab {
+	border:0px solid red;
+	height:22px;
+	margin:0 -18px 0 0;
+	padding:8px 0 0 0;
+	float:left;
+	text-align:center;
+	width:130px;
+	background: url(../img/code_tab.png) 0 30px;
+}
+
+.tabs_code .tab_active {
+	background: url(../img/code_tab.png) 0 0;
+	color:#ccc;
+}	
+
+.JS .tabs_code .tab a {
+	display:none;
+}
+
+.JS .tabs_code .tab_active a {
+	display:inline;
+	cursor:pointer;
+}

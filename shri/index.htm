@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<title>
+
+</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/tabs.css">
+<link rel="stylesheet" href="css/form.css">
+<link rel="stylesheet" href="css/code.css">
+<link rel="stylesheet" href="css/highlighter_tomorrow_night.css" media="screen">
+<link rel="stylesheet" href="css/print_style.css" media="print">
+<script src="scripts/jquery-1.8.0.js"></script>
+<script src="scripts/highlight.min.js"></script>
+<script src="scripts/index.js"></script>
+</head>
+
+<body>
+
+<div class="header">
+<h1 class="header_title">
+Анкета для Школы разработки интерфейсов
+</h1>
+</div>
+
+<div class="tabs tabs_form">
+<div class="tab tab_active">
+<a href="#common">
+Общие вопросы
+</a>
+</div>
+<div class="tab">
+<a href="#experience">
+Опыт разработки
+</a>
+</div>
+<div class="tab">
+<a href="#technical">
+Технические вопросы
+</a>
+</div>
+</div>
+
+<div class="overlay">
+<div class="nav">
+<div class="nav_tab prev disabled">
+<a href="#">←</a>
+</div>
+<div class="nav_tab next ">
+<a href="#">→</a>
+</div>
+</div>
+</div>
+
+<div class="form_container">
+
+<a id="common"></a>
+<div class="form form_active">
+<span class="form_title">
+Общие вопросы
+</span>
+<table>
+<tbody>
+<tr class="form_block_light">
+<td class="form_block_header">
+Фамилия, имя, отчество
+</td>
+<td class="form_block_body">
+Иванов Иван Иванович
+</td>
+</tr>
+
+<tr class="form_block_light">
+<td class="form_block_header">
+Е-mail
+</td>
+<td class="form_block_body">
+*****@yandex.ru
+</td>
+</tr>
+
+<tr class="form_block_light">
+<td class="form_block_header">
+Телефон
+</td>
+<td class="form_block_body">
++7 (9**) ***-**-**
+</td>
+</tr>
+
+<tr class="form_block_light">
+<td class="form_block_header">
+Год рождения
+</td>
+<td class="form_block_body">
+1993
+</td>
+</tr>
+
+<tr class="form_block_light">
+<td class="form_block_header">
+Город, в котором живёте
+</td>
+<td class="form_block_body">
+Москва
+</td>
+</tr>
+
+<tr class="form_block_light">
+<td class="form_block_header">
+Вуз, факультет, специальность, кафедра
+</td>
+<td class="form_block_body">
+ПСТГУ, факультет информатики и прикладной математики, кафедры пока нет
+</td>
+</tr>
+
+<tr class="form_block_light">
+<td class="form_block_header">
+Год окончания вуза
+</td>
+<td class="form_block_body">
+2015
+</td>
+</tr>
+
+<tr class="form_block_light">
+<td class="form_block_header">
+На каком уровне владеете английским языком?
+</td>
+<td class="form_block_body">
+Intermediate, читаю проф литературу
+</td>
+</tr>
+
+<tr class="form_block_light">
+<td class="form_block_header">
+Чего вы ожидаете от участия в Школе?
+</td>
+<td class="form_block_body">
+Систематизации своих знаний и приобретения новых. Решения интересных задач, работы в команде с увлеченными своим делом людьми. Если все сложится удачно, то прохождения стажировки в Яндексе.
+</td>
+</tr>
+
+<tr class="form_block_light">
+<td class="form_block_header">
+Откуда вы о нас узнали?
+</td>
+<td class="form_block_body">
+Habrahabr.ru
+</td>
+</tr>
+
+<tr class="form_block_light">
+<td class="form_block_header">
+Сколько времени вы были бы готовы уделять стажировке или работе в Яндексе?
+</td>
+<td class="form_block_body">
+Любое время, свободное от учебы
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<a id="experience"></a>
+<div class="form">
+<span class="form_title">
+Опыт разработки
+</span>
+<div class="form_block">
+<span class="form_block_header">
+Расскажите нам о вашем опыте разработки. Ничего не упускайте: это может быть как серьезный интерфейс, так и просто домашняя страничка.
+</span>
+<p class="form_block_body">
+Первый серьезный опыт появился 4 года назад, когда я взялся переписать с нуля небольшой сайт - <a href="http://petrov-gladky.ru" target="_blank">Petrov-gladky.ru</a>, планируя познакомится с серверным программированием. Про CMS не знал, поэтому изобретал велосипед на велосипеде. В результате написал движок на PHP с админкой и возможностью редактировать любой раздел сайта. Тогда же, при работе над дизайном, начал использовать jQuery.</br>
+Затем я написал <a href="http://ktlrv.ru" target="_blank">ktlrv.ru</a>. Выбирая платформу для сайта, познакомился с Wordpress и Joomla, но в конце концов решил снова написать все сам, так как задача была совсем небольшой: сайт-визитка для художника с возможностью наполнения и редактирования содержимого альбомов.</br>
+Был также опыт написания серверной части на Node.JS для небольшого сервиса по он-лайн конвертированию айдифайлов из формата FLAC в mp3.
+</p>
+</div>
+
+<div class="form_block">
+<span class="form_block_header">
+Какие языки программирования, фреймворки и технологии вы использовали? Сложились ли у вас личные предпочтения?</span>
+<p class="form_block_body">
+Использовал C/C++, Pascal/Delphi, C#, Lua, ActionScript; PHP, MySQL, Node.JS; Joomla, WordPress; Flash, CSS, Javascript. Из javascript фреймворков использую только jQuery, хотя пробовал и другие (MooTools, Prototype).
+</p>
+</div>
+
+<div class="form_block">
+<span class="form_block_header">
+Какие редакторы и среды разработки вы использовали? Чем обычно пользуетесь?
+</span>
+<p class="form_block_body">
+Чаще всего notepad++, недавно попробовал Sublime2 и планирую постепенно перейти на него. В ubuntu хватает Gedit.
+</p>
+</div>
+
+<div class="form_block">
+<span class="form_block_header">
+С какими ОС приходилось сталкиваться? Для каких целей вы их использовали?
+</span>
+<p class="form_block_body">
+Работал на всех настольных версиях Windows, начиная с 95, больше всего на XP. Сейчас на рабочем месте параллельно использую Ubuntu и Windows 7. Windows для веб разарботок, Ubuntu для всего остального.
+</p>
+</div>
+
+<div class="form_block">
+<span class="form_block_header">
+Приходилось ли вам пользоваться системами контроля версий? Если да, то какими? Какая из них вам нравится больше всего?
+</span>
+<p class="form_block_body">
+Честно говоря, GitHub я начал использовать только в процессе подготовки этой анкеты, так как до сих пор не приходилось работать над проектами, требовавшими использования системы контроля версии.
+</p>
+</div>
+
+<div class="form_block">
+<span class="form_block_header">
+Использовали ли вы системы постановки и ведения задач?
+</span>
+<p class="form_block_body">
+Пока нет.
+</p>
+</div>
+
+<div class="form_block">
+<span class="form_block_header">
+Какие полезные для фронтенд-разработчика ресурсы вы используете и можете посоветовать?
+</span>
+<ul class="form_block_body">
+<li><a href="http://habrahabr.ru">Habrahabr.ru</a></li>
+<li><a href="http://htmlbook.ru">Htmlbook.ru</a></li>
+<li><a href="http://javascript.com">javascript.ru</a></li>
+<li><a href="http://jquery.com">jQuery.com</a></li>
+</ul>
+</div>
+
+<div class="form_block">
+<span class="form_block_header">
+Работали ли вы где-нибудь? Какие у вас были должностные обязанности? Есть ли опыт работы в команде?
+</span>
+<p class="form_block_body">
+2011 - 2012 ОАО "Бауманн". Младший сотрудник в технологическом отделе. В должностные обязанности входило: отработка и испытание технологий производства радиоэлектронных изделий, ремонт радиоэлектронных устройств, подготовка документации, сотрудничество с отделом опытного производства, контроль и разрешение проблемных моментов в процессе производства. Работа с 1С.</br>
+По поводу работы в команде, могу привести пример из лицеистского прошлого, во время участия в "Слете Лицеистов". На слете были все московские лицеи, представленные семью лучшими учениками. Задания были разной тематики, я взял на себя все конкурсы, связанные с точными науками, и был тимлидом в 3 из 10 мероприятий. Благодаря правильному распределению задач, учитывавшему способности каждого члена команды, мы одержали победу в двух из трех.
+</p>
+</div>
+</div>
+
+<a id="technical"></a>
+<div class="form">
+<span class="form_title">
+Техническое задание
+</span>
+<div class="form_block">
+<span class="form_block_header">
+Перечислите известные вам инструменты и приёмы для отладки кода в разных браузерах.
+</span>
+<ul class="form_block_body">
+<li>Firebug Firefox</li>
+<li>Live HTTP headers Firefox</li>
+<li>Инструменты разработчика Chrome</li>
+<li>Dragonfly Opera</li>
+<li>Safari WebInspector</li>
+<li>IE Средства разработчика</li>
+</ul>
+</div>
+
+<div class="form_block">
+<span class="form_block_header">
+Опишите своими словами, что происходит в браузерах при клике на ссылку yandex.ru (полнота ответа — на ваше усмотрение).
+</span>
+<p class="form_block_body">
+Сначала браузер проверяет обработчики событий всех элементов начиная с того, на котором произошел клик, и далее вверх по DOM дереву (а затем, возможно, снова вниз - разные модели событий). В случае, если обработчиков не было, или никто из них не отменил действия по умолчанию (preventDefault()), отправляется GET запрос на сервер. В зависимости от значения аттрибута "target", может открыться новое окно или вкладка. В теле GET запроса находится содержимое аттрибута "href" элемента, а также куки, информация о браузере и т.д. Когда от сервера приходит ответ, браузер, либо показывает собственную страницу ошибки/предупреждения, либо достает старницу из кеша, либо загружает страницу, вместе со всеми подлюченными к ней элементами с сервера. Построение DOM дерева и отрисовка страницы идут параллельно с загрузкой. Когда весь html код загружен, вызывается событие onload() объектов window и document и выполняются обработчики. По мере загрузки изображений у них также вызывается onload().
+</p>
+</div>
+
+<div class="form_block">
+<span class="form_block_header">
+Предположим, что мы представляем автосалон по продаже японских и немецких автомобилей. У нас есть базовые классы и примеры их использования. Допишите недостающий код.
+</span>
+<div class="form_block_body form_code">
+<div class="tabs tabs_code">
+<div class="tab tab_active">
+<span class="code_description">
+CarDealer.js
+</span>
+<a class="code_save" href="scripts/CarDealer.js" target="_blank"><img src="img/save.png" /></a>
+</div>
+</div>
+<div class="code code_active">
+<pre>
+<code class="javascript">
+
+</code>
+</pre>
+</div>
+</div>
+</div>
+
+<div class="form_block">
+<span class="form_block_header">
+Найдите все текстовые файлы (*.txt), в имени которых содержится «yandex», а в содержимом — «школа разработки интерфейсов».
+</span>
+<div class="form_block_body form_code">
+<div class="tabs tabs_code">
+<div class="tab tab_active">
+<span class="code_description">
+Bash
+</span>
+</div>
+</div>
+<div class="code code_active code_oneline">
+<pre>
+<code class="bash">
+find . -name '*yandex*.txt' | while read i; do cat $i | grep 'школа разработки интерфейсов' -n; done
+</code>
+</pre>
+</div>
+</div>
+</div>
+
+<div class="form_block">
+<span class="form_block_header">
+Дана программа, реализованная одновременно на Bash, Python и Perl. Программа принимает произвольное количество аргументов и печатает их количество. Нужно добавить опцию -v для verbose-режима, в котором дополнительно выводится значение каждого из аргументов.
+</span>
+<div class="form_block_body form_code">
+<div class="tabs tabs_code">
+<div class="tab tab_active">
+<span class="code_description">
+Printargs.sh
+</span>
+<a class="code_save" href="printargs/printargs.sh" target="_blank"><img src="img/save.png" /></a>
+</div>
+<div class="tab">
+<span class="code_description">
+Printargs.py
+</span>
+<a class="code_save" href="printargs/printargs.py" target="_blank"><img src="img/save.png" /></a>
+</div>
+<div class="tab">
+<span class="code_description">
+Printargs.pl
+</span>
+<a class="code_save" href="printargs/printargs.pl" target="_blank"><img src="img/save.png" /></a>
+</div>
+</div>
+<div class="code code_active">
+<pre>
+<code class="bash">
+</code>
+</pre>
+</div>
+<div class="code">
+<pre>
+<code class="bash">
+</code>
+</pre>
+</div>
+<div class="code">
+<pre>
+<code class="bash">
+</code>
+</pre>
+</div>
+</div>
+</div>
+
+<div class="form_block">
+<span class="form_block_header">
+Расскажите, в каком объёме и при каких обстоятельствах вы изучали следующие темы: языки программирования (императивные/декларативные, разные системы типов), структуры (классы, структуры данных, примитивные типы), парадигмы (события, ООП, параллельность/асинхронность, кеширование), алгоритмы (парсинг, сортировка, поиск), паттерны.
+</span>
+<p class="form_block_body">
+Web технологиями начал заниматься самостоятельно примерно с 2004 года: HTML, Javascript, все на довольно примитивном уровне. Затем, по незнанию, взялся за Java, но дальше указателей изучение тогда не пошло. Узнав побольше про разные ЯПы начал изучать Pascal, потом С, потом, наконец, и С++. Параллельно, в школе, на информатике повторял основы HTML и Pascal. Всерьез программированием я занялся уже только на первом курсе ВМК. Там я изучал алгоритмы на примере машины Тьюринга и подстановок Маркова, а затем алгоритмы сортировки и основные типы данных, очереди, стеки, деревья (AVL, 2-3, b-tree ...) на Pascal и С.</br>
+На втором курсе начался С++ и изучение ООП, а также курс "Операционные системы", где я изучил основы пареллельного программирования. Занимаясь в то же время собственным проектом квадракоптера, я применял на практике полученные знания.</br>
+</p>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>

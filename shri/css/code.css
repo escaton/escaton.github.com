@@ -1,0 +1,39 @@
+.form_code {
+	margin:0 0px 60px 0px;
+	line-height:normal;
+}
+
+.code_description {
+
+}
+
+.code_save {
+	margin: 0 0 0 5px;
+	border:none;
+	position:relative;
+	top:2px;
+}
+
+.code_save img {
+	vertical-align:top;
+	border:none;
+}
+
+.code{
+	display:none;
+	background:#1D1F21;
+	font-size:120%;
+}
+
+.code_active {
+	display:block;
+}	
+
+.code pre {
+	height:400px;
+	overflow:auto;
+}
+
+.code_oneline pre {
+	height:85px;
+}
